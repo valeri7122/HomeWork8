@@ -1,13 +1,5 @@
 from datetime import datetime, timedelta
 
-users = [{'name':'Bill', 'birthday':datetime(year=2012, month=9, day=28)},
-    {'name':'Kim', 'birthday':datetime(year=1996, month=9, day=28)},
-  {'name':'Jill', 'birthday':datetime(year=2012, month=2, day=8)}, 
-  {'name':'Jan', 'birthday':datetime(year=2012, month=3, day=9)}, 
-  {'name':'Joan', 'birthday':datetime(year=2012, month=4, day=10)}, 
-  {'name':'Jack', 'birthday':datetime(year=2012, month=5, day=11)}, 
-  {'name':'Luck', 'birthday':datetime(year=2012, month=6, day=12)}, 
-  {'name':'Joe', 'birthday':datetime(year=2012, month=7, day=13)}]
 
 def get_birthdays_per_week(users):   
     
